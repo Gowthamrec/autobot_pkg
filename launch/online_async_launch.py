@@ -22,7 +22,7 @@ def generate_launch_description():
     declare_params_file_cmd = DeclareLaunchArgument(
         'params_file',
         default_value=default_params_file,
-        description='/home/user/autobot_ws/src/autobot_pkg/config/mapper_params_online_run.yaml')
+        description='Full path to the ROS2 parameters file to use for the slam_toolbox node')
 
     # If the provided param file doesn't have slam_toolbox params, we must pass the
     # default_params_file instead. This could happen due to automatic propagation of

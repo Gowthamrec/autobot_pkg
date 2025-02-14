@@ -19,7 +19,7 @@
         <color rgba="0 0 0 1"/>
     </material>
 
-    <xacro:property name="pi" value="3.141592653589793"/>
+    <!--<xacro:property name="pi" value="3.141592653589793"/>-->
 
 
     <link name="base_link">
